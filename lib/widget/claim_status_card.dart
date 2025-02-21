@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:medibank/status_column.dart';
+import 'package:medibank/widget/status_column.dart';
 
 class ClaimStatusCard extends StatelessWidget {
   final int current, pending, history;

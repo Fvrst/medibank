@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:medibank/claim_status_card.dart';
+import 'package:medibank/widget/claim_status_card.dart';
 import 'package:medibank/screen/search.dart';
 
 class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.black),
